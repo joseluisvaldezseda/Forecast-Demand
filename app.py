@@ -128,7 +128,7 @@ df_f_final = apply_filters(df_pred)
 # ==========================================
 # 5. MAIN DASHBOARD UI
 # ==========================================
-st.title("S&OP Control ")
+st.title("S&OP Control Tower")
 st.markdown(f"**Context:** {sel_format} > {sel_group} > {sel_brand}")
 
 # --- ROW 1: EXECUTIVE KPIs ---
@@ -351,3 +351,4 @@ with tab3:
         
 
         st.plotly_chart(fig_master, use_container_width=True)
+
