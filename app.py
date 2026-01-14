@@ -128,7 +128,7 @@ df_f_final = apply_filters(df_pred)
 # ==========================================
 # 5. MAIN DASHBOARD UI
 # ==========================================
-st.title("S&OP Control Tower: Demand & Inventory")
+st.title("S&OP Control ")
 st.markdown(f"**Context:** {sel_format} > {sel_group} > {sel_brand}")
 
 # --- ROW 1: EXECUTIVE KPIs ---
@@ -349,4 +349,5 @@ with tab3:
         split_date = df_b_final['date'].max()
         fig_master.add_vline(x=split_date, line_width=1, line_dash="dash", line_color="grey")
         
+
         st.plotly_chart(fig_master, use_container_width=True)
