@@ -7,3 +7,6 @@ prophet
 xgboost
 tqdm
 joblib
+streamlit
+plotly
+pyarrow
